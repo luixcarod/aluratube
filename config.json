@@ -31,7 +31,6 @@
                 "thumb": "https://i.ytimg.com/vi/DCeWobEGakk/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBBJXBA3d3AvgK3538ZuBaKbLS1Mg"
             }
         ],
-
         "comidas": [
             {
                 "title": "Minha herança para o mundo!",
@@ -57,6 +56,25 @@
                 "title": "Hoje é Dia da Massa! Molho de linguiça de porco para comemorar!",
                 "url": "https://www.youtube.com/watch?v=nwYAkagBGuQ",
                 "thumb": "https://i.ytimg.com/vi/nwYAkagBGuQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCIRfFyBKHiDKLbg04faOKSTDzpOw"
+            }
+        ]
+    },
+    "favoritos": {
+        "Canais Favoritos": [
+            {
+                "nomecanal": "LeoneNilce",
+                "url": "https://www.youtube.com/channel/UCr3dtVIm3nL7I-Yjn2PxxIQ",
+                "thumb": "https://yt3.ggpht.com/mrTr4M4_gBkiR9tsO2V3X-7F0PxoCKwkmSZsxynUj1k1PLVBEuihUYQqjysnPlebherdTq_NS-s=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "nomecanal": "PaolaCarosella",
+                "url": "https://www.youtube.com/user/pcarosella",
+                "thumb": "https://yt3.ggpht.com/ytc/AMLnZu8f0u9QYzzG73No0OJClLSQl0ncs_ZGlVErL8TqeQ=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "nomecanal": "Rodil",
+                "url": "https://www.youtube.com/channel/UCDT1i4tivenp3FjnGdqWvQg",
+                "thumb": "https://yt3.ggpht.com/7lID-_XNQlKnu8rBZYvowEDEj6d-Muse_b5pcHty0Uc_rp_dWH4mBCWBXprB-6Ry-7n9Lv_zqA=s88-c-k-c0x00ffffff-no-rj"
             }
         ]
     }
