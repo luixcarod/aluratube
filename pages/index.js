@@ -2,12 +2,12 @@ import React from 'react';
 import config from '../config.json';
 import styled from 'styled-components';
 import { CSSReset } from '../src/components/CSSReset';
-import Menu from '../src/components/Menu';
+import Menu from '../src/components/Menu/Index.js';
 import { StyledTimeline } from '../src/components/Timeline';
 
 function HomePage() {
 
-    const [valorDoFiltro, setValorDoFiltro] = React.useState("Shaco");
+    const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     return (
         <>
