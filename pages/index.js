@@ -1,13 +1,33 @@
 import React from 'react';
 import config from '../config.json';
 import styled from 'styled-components';
-import { CSSReset } from '../src/components/CSSReset';
 import Menu from '../src/components/Menu/Index.js';
 import { StyledTimeline } from '../src/components/Timeline';
+import { videoService } from '../src/services/videoService';
 
 function HomePage() {
 
+    const service = videoService();
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+    const [playlists, setPlaylists] = React.useState({});
+
+    React.useEffect(() => {
+        service
+            .getAllVideos()
+            .then((dados) => {
+                console.log(dados);
+
+                const novasPlaylists = { ...playlists };
+                dados.data.forEach((video) => {
+                    if (!novasPlaylists[video.playlist]) {
+                        novasPlaylists[video.playlist] = [];
+                    }
+                    novasPlaylists[video.playlist].push(video);
+                });
+                setPlaylists(novasPlaylists);
+            });
+    }, []);
+
 
     return (
         // Aqui, como queremos renderizar mais de uma coisa, o React exige que
@@ -29,7 +49,7 @@ function HomePage() {
 
                 {/* Aqui na timeline o que passei: playlists={config.playlists} 
                 é conhecido como props (as propriedades desse componente) */}
-                <Timeline playlists={config.playlists} favoritos={config.favoritos} searchValue={valorDoFiltro} />
+                <Timeline playlists={playlists} favoritos={config.favoritos} searchValue={valorDoFiltro} />
             </div>
         </>
     )
