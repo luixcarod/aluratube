@@ -17,6 +17,19 @@ export const StyledHeader = styled.div`
         padding: 16px 32px;
         gap: 16px;
     }
+
+    .social span{
+        position: initial;
+        float: right;
+    }
+
+    .social span a{
+        margin: 5px;
+        font-size: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        color: ${({ theme }) => theme.textColorBase};
+    }
 `;
 
 export const StyledBanner = styled.div`

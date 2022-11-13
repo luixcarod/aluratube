@@ -1,5 +1,6 @@
 import { StyledBanner, StyledHeader } from "./Header.js";
 import config from '../../../config.json';
+import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Header() {
     return (
@@ -17,6 +18,12 @@ export default function Header() {
                         {config.job}
                     </p>
                 </div>
+                <div className="social">
+                        <span>
+                            <a href="https://github.com/luixcarod"><AiOutlineGithub /></a>
+                            <a href="https://www.linkedin.com/in/luiz-carlos-rodrigues-a7611679/"><AiFillLinkedin /></a>
+                        </span>
+                    </div>
             </section>
         </StyledHeader>
     )
