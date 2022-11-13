@@ -32,7 +32,7 @@ export const StyledTimeline = styled.div`
       grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
       grid-auto-flow: column;
       grid-auto-columns: minmax(200px,1fr);
-      overflow-x: hidden;
+      overflow-x: auto;
       scroll-snap-type: x mandatory;
       a {
         scroll-snap-align: start;
@@ -44,5 +44,20 @@ export const StyledTimeline = styled.div`
         }
       }
     }
+  }
+
+  div::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+  div::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.borderBase};        /* color of the tracking area */
+    border-radius: 20px;
+  }
+
+  div::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) =>  "#999"};    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid ${({ theme }) => theme.borderBase};  /* creates padding around scroll thumb */
   }
 `;

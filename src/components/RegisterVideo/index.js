@@ -30,10 +30,11 @@ function getThumbnail(url) {
     return `https://i.ytimg.com/vi/${url.split("v=")[1]}/hqdefault.jpg`;
 }
 
+
 export default function RegisterVideo() {
 
     const formCadastro = useForm({
-        initialValues: { titulo: "", url: "" }
+        initialValues: { titulo: "", url: "", categoria: "" }
     });
 
     const [formVisivel, setFormVisivel] = React.useState(false);
@@ -53,35 +54,43 @@ export default function RegisterVideo() {
                         title: formCadastro.novoVideo.titulo,
                         url: formCadastro.novoVideo.url,
                         thumb: getThumbnail(formCadastro.novoVideo.url),
-                        playlist: "jogos"
+                        playlist: formCadastro.novoVideo.categoria
                     })
-                    .then((e) => {
-                        console.log(e);
-                    })
-                    .catch(()=>{
-                        console.log("Erro ao cadastrar novo video...")
-                    })
+                        .then((e) => {
+                            console.log("Video cadastrado com sucesso!")
+                        })
+                        .catch(() => {
+                            console.log("Erro ao cadastrar novo video...")
+                        })
 
                     setFormVisivel(false);
                     formCadastro.clearForm();
                 }}>
                     <div>
-                        <button type="button" className="close-modal" onClick={() => setFormVisivel(false)}>
-                            X
-                        </button>
-                        <input
-                            placeholder="Título do vídeo"
-                            name="titulo"
-                            value={formCadastro.novoVideo.titulo}
-                            onChange={formCadastro.handleChange}
-                        />
-                        <input
-                            placeholder="URl do vídeo"
-                            name="url"
-                            value={formCadastro.novoVideo.url}
-                            onChange={formCadastro.handleChange}
-                        />
-                        <button type="submit">Cadastrar</button>
+                        <div className="form-align">
+                            <button type="button" className="close-modal" onClick={() => setFormVisivel(false)}>
+                                X
+                            </button>
+                            <input
+                                placeholder="Título do vídeo"
+                                name="titulo"
+                                value={formCadastro.novoVideo.titulo}
+                                onChange={formCadastro.handleChange}
+                            />
+                            <input
+                                placeholder="Categoria do vídeo"
+                                name="categoria"
+                                value={formCadastro.novoVideo.categoria}
+                                onChange={formCadastro.handleChange}
+                            />
+                            <input
+                                placeholder="URl do vídeo"
+                                name="url"
+                                value={formCadastro.novoVideo.url}
+                                onChange={formCadastro.handleChange}
+                            />
+                            <button type="submit">Cadastrar</button>
+                        </div>
                     </div>
                 </form>
             )}

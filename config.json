@@ -2,72 +2,16 @@
     "name": "Luiz Carlos",
     "job": "Programador",
     "github": "luixcarod",
-    "banner": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "playlists": {
-        "jogos": [
-            {
-                "title": "É ASSIM QUE SE JOGA DE SHACO, APRENDE KKK",
-                "url": "https://www.youtube.com/watch?v=h2YOBB8Q3vU&t",
-                "thumb": "https://i.ytimg.com/vi/h2YOBB8Q3vU/hqdefault.jpg"
-            },
-            {
-                "title": "Qual é a LÓGICA do CONTEXTO?!",
-                "url": "https://www.youtube.com/watch?v=XF1trEqs2nE",
-                "thumb": "https://i.ytimg.com/vi/XF1trEqs2nE/hqdefault.jpg"
-            },
-            {
-                "title": "LANCEI O FAMOSO BLITZCRANK CRÍTICO NA JUNGLE KKKK",
-                "url": "https://www.youtube.com/watch?v=pu88XKUvlrc",
-                "thumb": "https://i.ytimg.com/vi/pu88XKUvlrc/hqdefault.jpg"
-            },
-            {
-                "title": "CHEGAMOS NA FINAL DO 'GEOGUESSR'?",
-                "url": "https://www.youtube.com/watch?v=m_UrwNKKAR8",
-                "thumb": "https://i.ytimg.com/vi/m_UrwNKKAR8/hqdefault.jpg"
-            },
-            {
-                "title": "Lissandra space groove pokea pyke e leva tiros de varus chato no PBE!!",
-                "url": "https://www.youtube.com/watch?v=DCeWobEGakk",
-                "thumb": "https://i.ytimg.com/vi/DCeWobEGakk/hqdefault.jpg"
-            }
-        ],
-        "comidas": [
-            {
-                "title": "Minha herança para o mundo!",
-                "url": "https://www.youtube.com/watch?v=vPDSq6If3U4",
-                "thumb": "https://i.ytimg.com/vi/vPDSq6If3U4/hqdefault.jpg"
-            },
-            {
-                "title": "Bolo de Chocolate pronto em 15 minutos!",
-                "url": "https://www.youtube.com/watch?v=Krp1tWm80aU",
-                "thumb": "https://i.ytimg.com/vi/Krp1tWm80aU/hqdefault.jpg"
-            },
-            {
-                "title": "Finalmente! Marmitas da Paola!",
-                "url": "https://www.youtube.com/watch?v=SSl-Ia-oFGo",
-                "thumb": "https://i.ytimg.com/vi/SSl-Ia-oFGo/hqdefault.jpg"
-            },
-            {
-                "title": "Stroganoff, com A mesmo! - Nossa Cozinha Ep.4",
-                "url": "https://www.youtube.com/watch?v=8qFZ0N4R68k",
-                "thumb": "https://i.ytimg.com/vi/8qFZ0N4R68k/hqdefault.jpg"
-            },
-            {
-                "title": "Hoje é Dia da Massa! Molho de linguiça de porco para comemorar!",
-                "url": "https://www.youtube.com/watch?v=nwYAkagBGuQ",
-                "thumb": "https://i.ytimg.com/vi/nwYAkagBGuQ/hqdefault.jpg"
-            }
-        ]
-    },
+    "banner": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     "favoritos": {
         "Canais Favoritos": [
             {
-                "nomecanal": "LeoneNilce",
+                "nomecanal": "Leon e Nilce",
                 "url": "https://www.youtube.com/channel/UCr3dtVIm3nL7I-Yjn2PxxIQ",
                 "thumb": "https://yt3.ggpht.com/mrTr4M4_gBkiR9tsO2V3X-7F0PxoCKwkmSZsxynUj1k1PLVBEuihUYQqjysnPlebherdTq_NS-s=s88-c-k-c0x00ffffff-no-rj"
             },
             {
-                "nomecanal": "PaolaCarosella",
+                "nomecanal": "Paola Carosella",
                 "url": "https://www.youtube.com/user/pcarosella",
                 "thumb": "https://yt3.ggpht.com/ytc/AMLnZu8f0u9QYzzG73No0OJClLSQl0ncs_ZGlVErL8TqeQ=s88-c-k-c0x00ffffff-no-rj"
             },
@@ -75,6 +19,11 @@
                 "nomecanal": "Rodil",
                 "url": "https://www.youtube.com/channel/UCDT1i4tivenp3FjnGdqWvQg",
                 "thumb": "https://yt3.ggpht.com/7lID-_XNQlKnu8rBZYvowEDEj6d-Muse_b5pcHty0Uc_rp_dWH4mBCWBXprB-6Ry-7n9Lv_zqA=s88-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "nomecanal": "Diva Depressão",
+                "url": "https://www.youtube.com/c/DivaDepressao",
+                "thumb": "https://yt3.ggpht.com/4dr0uEoum8Lu10TzW0V9sYsT3NNFjC1XxMJIvbbY6fiQMzN7kPQcNeN7dUiBK5oS6SSFlMPwqQ=s88-c-k-c0x00ffffff-no-rj"
             }
         ]
     }
